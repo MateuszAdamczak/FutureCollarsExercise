@@ -5,27 +5,31 @@ public abstract class BaseEmployee {
     private final String name;
     private final String surname;
     private final int yearOfEmployment;
+    private final int basicSalary;
 
-    int basicSalary = 3000;
-
-    public BaseEmployee(String name, String surname, int yearOfEmployment) {
+    public BaseEmployee(String name, String surname, int yearOfEmployment, int basicSalary) {
         this.name = name;
         this.surname = surname;
         this.yearOfEmployment = yearOfEmployment;
+        this.basicSalary = basicSalary;
+
     }
 
     public String getName() {
-        return "Imię: " + name;
+        return name;
     }
 
     public String getSurname() {
-        return "Nazwisko: " + surname;
+        return surname;
     }
 
-    public String getYearOfEmployment() {
+    public int getYearOfEmployment() {
         int WorkTime = 2022 - yearOfEmployment;
-        return "Pracuje: " + WorkTime + " lat";
+        return WorkTime;
+    }
+    public int getBasicSalary() {
+        return basicSalary;
     }
 
-    public abstract String calculateMonthlySalary();
+    public abstract int calculateMonthlySalary();
 }

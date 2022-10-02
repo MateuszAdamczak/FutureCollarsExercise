@@ -2,14 +2,13 @@ package com.futurecollars.lekcja3.zadanie3;
 
 public class TicketSeller extends BaseEmployee {
 
-    private final int basicSalary = 3000; //wartości pensji podstawowej.
 
-    public TicketSeller(String name, String surname, int yearOfEmployment) {
-        super(name, surname, yearOfEmployment);
+    public TicketSeller(String name, String surname, int yearOfEmployment, int basicSalary) {
+        super(name, surname, yearOfEmployment, basicSalary);
     }
 
     @Override
-    public String calculateMonthlySalary() {
-        return "Pensja: " + basicSalary;
+    public int calculateMonthlySalary() {
+        return getBasicSalary();
     }
 }
