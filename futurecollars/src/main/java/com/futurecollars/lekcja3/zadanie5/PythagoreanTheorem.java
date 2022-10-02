@@ -2,12 +2,12 @@ package com.futurecollars.lekcja3.zadanie5;
 
 public class PythagoreanTheorem {
 
-    public static String Pythagorean(int a, int b, int c) {
-        int AorB = a * a + b * b;
-        int C = c * c;
+    public static boolean isTriangleRectangular(int firstSideNearRectangleRightAngle, int secoundSideNearRectangleRightAngle, int SideOppositeRectangleRightAngle) {
+        int SideAorBtoSquared = firstSideNearRectangleRightAngle * firstSideNearRectangleRightAngle + secoundSideNearRectangleRightAngle * secoundSideNearRectangleRightAngle;
+        int SideCtoSquared = SideOppositeRectangleRightAngle * SideOppositeRectangleRightAngle;
 
-        if (AorB == C)
-            return "Jest prostokątny";
-        return "Nie jest prostokątny";
+        if (SideAorBtoSquared == SideCtoSquared)
+            return true;
+        return false;
     }
 }

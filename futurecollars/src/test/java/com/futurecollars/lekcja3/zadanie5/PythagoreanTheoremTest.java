@@ -7,13 +7,25 @@ public class PythagoreanTheoremTest {
 
     @Test
     void shouldCheckThePythagoreanTheorem() {
-        String Pythagorean = PythagoreanTheorem.Pythagorean(6, 8, 10);
-        Assertions.assertEquals("Jest prostokątny", Pythagorean);
+        //given
+        int firstSide = 6;
+        int secoundSide = 8;
+        int thirdSide = 10;
+        //when
+        boolean isTriangleRectangular = PythagoreanTheorem.isTriangleRectangular(firstSide, secoundSide, thirdSide);
+        //then
+        Assertions.assertEquals(true, isTriangleRectangular);
     }
 
     @Test
     void shouldCheckThePythagoreanTheorem2() {
-        String Pythagorean = PythagoreanTheorem.Pythagorean(2, 4, 6);
-        Assertions.assertEquals("Nie jest prostokątny", Pythagorean);
+        //given
+        int firstSide = 3;
+        int secoundSide = 4;
+        int thirdSide = 5;
+        //when
+        boolean isTriangleRectangular = PythagoreanTheorem.isTriangleRectangular(firstSide, secoundSide, thirdSide);
+        //then;
+        Assertions.assertEquals(true, isTriangleRectangular);
     }
 }
