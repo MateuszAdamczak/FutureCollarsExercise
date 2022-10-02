@@ -5,13 +5,13 @@ public class Movie {
     private String title;
     private String directorFullName;
     private int duration;
-    private int producitonYear;
+    private int productionYear;
 
-    public Movie(String title, String directorFullName, int duration, int producitonYear) {
+    public Movie(String title, String directorFullName, int duration, int productionYear) {
         this.title = title;
         this.directorFullName = directorFullName;
         this.duration = duration;
-        this.producitonYear = producitonYear;
+        this.productionYear = productionYear;
     }
 
     public String getTitleMovie() {
@@ -27,7 +27,7 @@ public class Movie {
     }
 
     public int getProducitonYear() {
-        return producitonYear;
+        return productionYear;
     }
 
     public void setTitleMovie(String titleMovie) {
@@ -43,6 +43,6 @@ public class Movie {
     }
 
     public void setProducitonYear(int producitonYear) {
-        this.producitonYear = producitonYear;
+        this.productionYear = producitonYear;
     }
 }
