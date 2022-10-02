@@ -1,0 +1,32 @@
+package com.futurecollars.lekcja4.zadanie2;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class RectangleTest {
+
+    @Test
+    void shouldCalculateArea() {
+        //given
+        double sideA = 4;
+        double sideB = 5;
+        //when
+        Rectangle rectangle = new Rectangle(sideA, sideB);
+        double resoult = rectangle.getArea();
+        //then
+        assertEquals(20, resoult);
+    }
+
+    @Test
+    void shouldCalculatePerimeter() {
+        //given
+        double sideA = 4;
+        double sideB = 5;
+        //when
+        Rectangle rectangle = new Rectangle(sideA, sideB);
+        double resoult = rectangle.getPerimeter();
+        //then
+        assertEquals(18, resoult);
+    }
+}
