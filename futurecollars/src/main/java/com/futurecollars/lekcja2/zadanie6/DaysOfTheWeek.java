@@ -1,16 +1,7 @@
 package com.futurecollars.lekcja2.zadanie6;
 
 public class DaysOfTheWeek {
-    public static void main(String[] args) {
-
-        System.out.println(printYearSeason(10));
-        System.out.println(printYearSeason(1));
-        System.out.println(printYearSeason(5));
-        System.out.println(printYearSeason(7));
-
-    }
-
-    public static String printYearSeason(int monthNumber) {
+    public static String convertNumberToWeekDay(int monthNumber) {
         switch (monthNumber) {
             case 1:
                 return ("Monday");
