@@ -6,7 +6,7 @@ public class main {
         WindowMessage WindowMessage = new WindowMessage();
         System.out.println(WindowMessage.getMessage());
 
-       ConsoleMessage ConsoleMessage = new ConsoleMessage();
+        ConsoleMessage ConsoleMessage = new ConsoleMessage();
         System.out.println(ConsoleMessage.getMessage());
 
     }

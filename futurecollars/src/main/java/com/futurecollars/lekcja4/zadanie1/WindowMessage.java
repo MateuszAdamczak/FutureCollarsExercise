@@ -1,6 +1,6 @@
 package com.futurecollars.lekcja4.zadanie1;
 
-public class WindowMessage extends Message{
+public class WindowMessage extends Message {
 
     @Override
     public String getMessage() {

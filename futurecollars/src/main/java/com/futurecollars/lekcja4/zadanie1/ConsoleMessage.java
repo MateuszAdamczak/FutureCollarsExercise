@@ -1,6 +1,6 @@
 package com.futurecollars.lekcja4.zadanie1;
 
-public class ConsoleMessage extends Message{
+public class ConsoleMessage extends Message {
 
     @Override
     public String getMessage() {
