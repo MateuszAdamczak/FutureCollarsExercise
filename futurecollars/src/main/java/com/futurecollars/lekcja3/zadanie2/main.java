@@ -7,7 +7,7 @@ public class main {
 
         System.out.println(movie.getTitleMovie());
         System.out.println(movie.getDirectorFullName());
-        System.out.println(movie.getMovieTime());
+        System.out.println(movie.getDuration());
         System.out.println(movie.getProducitonYear());
     }
 }

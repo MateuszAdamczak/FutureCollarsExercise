@@ -2,36 +2,36 @@ package com.futurecollars.lekcja3.zadanie2;
 
 public class Movie {
 
-    private String titleMovie;
+    private String title;
     private String directorFullName;
-    private int movieTime;
+    private int duration;
     private int producitonYear;
 
-    public Movie(String titleMovie, String directorFullName, int movieTimeInMinutes, int producitonYear) {
-        this.titleMovie = titleMovie;
+    public Movie(String title, String directorFullName, int duration, int producitonYear) {
+        this.title = title;
         this.directorFullName = directorFullName;
-        this.movieTime = movieTimeInMinutes;
+        this.duration = duration;
         this.producitonYear = producitonYear;
     }
 
     public String getTitleMovie() {
-        return "Tytuł: " + titleMovie;
+        return title;
     }
 
     public String getDirectorFullName() {
-        return "Reżyser: " + directorFullName;
+        return directorFullName;
     }
 
-    public String getMovieTime() {
-        return "Czas filmu: " + movieTime + " min";
+    public int getDuration() {
+        return duration;
     }
 
-    public String getProducitonYear() {
-        return "Rok produkcji: " + producitonYear;
+    public int getProducitonYear() {
+        return producitonYear;
     }
 
     public void setTitleMovie(String titleMovie) {
-        this.titleMovie = titleMovie;
+        this.title = titleMovie;
     }
 
     public void setDirectorFullName(String directorFullName) {
@@ -39,7 +39,7 @@ public class Movie {
     }
 
     public void setMovieTime() {
-        this.movieTime = movieTime;
+        this.duration = duration;
     }
 
     public void setProducitonYear(int producitonYear) {
