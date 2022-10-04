@@ -14,6 +14,7 @@ public class DaysOfTheWeekTest {
         //then
         Assertions.assertEquals("Monday", convertNumberToWeekDay);
     }
+
     @Test
     void shouldWriteWednesday() {
         //given
@@ -23,6 +24,7 @@ public class DaysOfTheWeekTest {
         //then
         Assertions.assertEquals("Wednesday", convertNumberToWeekDay);
     }
+
     @Test
     void shouldWriteWeekend() {
         //given
@@ -32,6 +34,7 @@ public class DaysOfTheWeekTest {
         //then
         Assertions.assertEquals("Weekend", convertNumberToWeekDay);
     }
+
     @Test
     void shouldWriteCorrectiveText() {
         //given
