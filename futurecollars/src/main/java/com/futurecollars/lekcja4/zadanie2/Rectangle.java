@@ -5,7 +5,7 @@ public class Rectangle extends Shape {
     private double sideA;
     private double sideB;
 
-    public Rectangle(double sideA,double sideB) {
+    public Rectangle(double sideA, double sideB) {
         this.sideA = sideA;
         this.sideB = sideB;
 
@@ -18,8 +18,8 @@ public class Rectangle extends Shape {
 
     @Override
     public double getPerimeter() {
-        double Perimeter = sideA + sideA + sideB + sideB;
-        return Perimeter;
+        double perimeter = sideA + sideA + sideB + sideB;
+        return perimeter;
     }
 }
 

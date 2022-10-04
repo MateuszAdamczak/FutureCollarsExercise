@@ -8,7 +8,6 @@ public class Square extends Shape {
         this.sideA = sideA;
     }
 
-
     @Override
     public double getArea() {
         return sideA * sideA;
@@ -16,7 +15,6 @@ public class Square extends Shape {
 
     @Override
     public double getPerimeter() {
-
         return sideA * 4;
     }
 }

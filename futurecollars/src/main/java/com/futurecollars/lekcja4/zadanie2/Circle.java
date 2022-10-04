@@ -11,14 +11,14 @@ public class Circle extends Shape {
     @Override
     public double getArea() {
         double radius = diameter / 2;
-        double Area = (double) Math.PI * radius * radius;
-        return Area;
+        double area = (double) Math.PI * radius * radius;
+        return area;
     }
 
     @Override
     public double getPerimeter() {
         double radius = diameter / 2;
-        double Perimeter = 2 * (double) Math.PI * radius;
-        return Perimeter;
+        double perimeter = 2 * (double) Math.PI * radius;
+        return perimeter;
     }
 }

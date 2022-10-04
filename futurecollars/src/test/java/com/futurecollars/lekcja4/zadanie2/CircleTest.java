@@ -10,21 +10,21 @@ class CircleTest {
     void shouldCalculateArea() {
         //given
         double diameter = 4;
-        //when
         Circle circle = new Circle(diameter);
-        double resoult = circle.getArea();
+        //when
+        double result = circle.getArea();
         //then
-        assertEquals(12.566370614359172, resoult);
+        assertEquals(12.566370614359172, result);
     }
 
     @Test
     void shouldCalculatePerimeter() {
         //given
         double diameter = 6;
-        //when
         Circle circle = new Circle(diameter);
-        double resoult = circle.getPerimeter();
+        //when
+        double result = circle.getPerimeter();
         //then
-        assertEquals(18.84955592153876, resoult);
+        assertEquals(18.84955592153876, result);
     }
 }

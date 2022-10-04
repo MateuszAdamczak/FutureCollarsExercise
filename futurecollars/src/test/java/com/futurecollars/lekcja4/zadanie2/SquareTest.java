@@ -10,8 +10,8 @@ class SquareTest {
     void shouldCalculateArea() {
         //given
         double sideA = 4;
-        //when
         Square square = new Square(sideA);
+        //when
         double resoult = square.getArea();
         //then
         assertEquals(16, resoult);
@@ -21,8 +21,8 @@ class SquareTest {
     void shouldCalculatePerimeter() {
         //given
         double sideA = 4;
-        //when
         Square square = new Square(sideA);
+        //when
         double resoult = square.getPerimeter();
         //then
         assertEquals(16, resoult);

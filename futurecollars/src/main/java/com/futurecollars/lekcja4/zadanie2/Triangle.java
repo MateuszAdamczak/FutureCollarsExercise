@@ -16,13 +16,13 @@ public class Triangle extends Shape {
 
     @Override
     public double getArea() {
-        double Area = sideA * height / 2;
-        return Area;
+        double area = sideA * height / 2;
+        return area;
     }
 
     @Override
     public double getPerimeter() {
-        double Perimeter = sideA + sideB + sideC;
-        return Perimeter;
+        double perimeter = sideA + sideB + sideC;
+        return perimeter;
     }
 }
