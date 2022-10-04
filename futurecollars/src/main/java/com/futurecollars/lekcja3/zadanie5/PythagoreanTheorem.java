@@ -6,8 +6,6 @@ public class PythagoreanTheorem {
         int sideAorBtoSquared = firstSideNearRectangleRightAngle * firstSideNearRectangleRightAngle + secoundSideNearRectangleRightAngle * secoundSideNearRectangleRightAngle;
         int sideCtoSquared = sideOppositeRectangleRightAngle * sideOppositeRectangleRightAngle;
 
-        if (sideAorBtoSquared == sideCtoSquared)
-            return true;
-        return false;
+        return sideAorBtoSquared == sideCtoSquared;
     }
 }
