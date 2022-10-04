@@ -13,9 +13,9 @@ class RectangleTest {
         double sideB = 5;
         Rectangle rectangle = new Rectangle(sideA, sideB);
         //when
-        double resoult = rectangle.getArea();
+        double result = rectangle.getArea();
         //then
-        assertEquals(20, resoult);
+        assertEquals(20, result);
     }
 
     @Test
@@ -25,8 +25,8 @@ class RectangleTest {
         double sideB = 5;
         Rectangle rectangle = new Rectangle(sideA, sideB);
         //when
-        double resoult = rectangle.getPerimeter();
+        double result = rectangle.getPerimeter();
         //then
-        assertEquals(18, resoult);
+        assertEquals(18, result);
     }
 }

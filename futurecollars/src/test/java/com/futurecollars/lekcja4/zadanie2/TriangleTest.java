@@ -15,9 +15,9 @@ class TriangleTest {
         double height = 4;
         Triangle triangle = new Triangle(sideNumber1, sideNumber2, sideNumber3, height);
         //when
-        double resoult = triangle.getArea();
+        double result = triangle.getArea();
         //then
-        assertEquals(6.0, resoult);
+        assertEquals(6.0, result);
     }
 
     @Test
@@ -29,8 +29,8 @@ class TriangleTest {
         double height = 4;
         Triangle triangle = new Triangle(sideNumber1, sideNumber2, sideNumber3, height);
         //when
-        double resoult = triangle.getPerimeter();
+        double result = triangle.getPerimeter();
         //then
-        assertEquals(12.0, resoult);
+        assertEquals(12.0, result);
     }
 }
