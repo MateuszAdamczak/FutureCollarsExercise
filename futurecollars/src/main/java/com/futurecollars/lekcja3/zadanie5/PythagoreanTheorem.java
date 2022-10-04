@@ -2,11 +2,11 @@ package com.futurecollars.lekcja3.zadanie5;
 
 public class PythagoreanTheorem {
 
-    public static boolean isTriangleRectangular(int firstSideNearRectangleRightAngle, int secoundSideNearRectangleRightAngle, int SideOppositeRectangleRightAngle) {
-        int SideAorBtoSquared = firstSideNearRectangleRightAngle * firstSideNearRectangleRightAngle + secoundSideNearRectangleRightAngle * secoundSideNearRectangleRightAngle;
-        int SideCtoSquared = SideOppositeRectangleRightAngle * SideOppositeRectangleRightAngle;
+    public static boolean isTriangleRectangular(int firstSideNearRectangleRightAngle, int secoundSideNearRectangleRightAngle, int sideOppositeRectangleRightAngle) {
+        int sideAorBtoSquared = firstSideNearRectangleRightAngle * firstSideNearRectangleRightAngle + secoundSideNearRectangleRightAngle * secoundSideNearRectangleRightAngle;
+        int sideCtoSquared = sideOppositeRectangleRightAngle * sideOppositeRectangleRightAngle;
 
-        if (SideAorBtoSquared == SideCtoSquared)
+        if (sideAorBtoSquared == sideCtoSquared)
             return true;
         return false;
     }
