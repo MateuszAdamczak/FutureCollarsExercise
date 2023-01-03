@@ -1,6 +1,6 @@
 package com.futurecollars.lekcja4.zadanie3;
 
-public interface AreaAndPerimetr {
+public interface AreaAndPerimeter {
 
     abstract double getPerimeter();
 

@@ -1,6 +1,6 @@
 package com.futurecollars.lekcja4.zadanie3;
 
-public class Rectangle implements AreaAndPerimetr {
+public class Rectangle implements AreaAndPerimeter {
 
     private int sideA;
     private int sideB;

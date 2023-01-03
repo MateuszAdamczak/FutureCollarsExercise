@@ -1,6 +1,6 @@
 package com.futurecollars.lekcja4.zadanie3;
 
-public class Square implements AreaAndPerimetr {
+public class Square implements AreaAndPerimeter {
 
     private int sideA;
 
