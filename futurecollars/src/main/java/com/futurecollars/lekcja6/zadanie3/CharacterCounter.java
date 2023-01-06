@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 
 public class CharacterCounter {
 
-    public void printNumberChar() {
+    public void printNumberOfCharacters() {
         try {
             Path path = Paths.get("src/main/java/com/futurecollars/lekcja6/zadanie5/data.txt");
             String content = Files.readString(path);
