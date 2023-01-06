@@ -8,7 +8,7 @@ public class Element {
     }
 
 
-    public double changeNumberIntoRoot() {
+    public double calculateRoot() {
         if (number > 0) {
             System.out.println(Math.sqrt(number));
         } else if (number < 0) {

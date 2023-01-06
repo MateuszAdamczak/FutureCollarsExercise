@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         Element elemental2 = new Element(16);
-        elemental2.changeNumberIntoRoot();
+        elemental2.calculateRoot();
 
         Element elemental = new Element(-16);
-        elemental.changeNumberIntoRoot();
+        elemental.calculateRoot();
     }
 }
