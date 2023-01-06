@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class FileReader {
-    public void getTheSecondLine() {
+    public void printTheSecondLine() {
         try {
             Path path = Paths.get("src/main/java/com/futurecollars/lekcja6/zadanie2/data.txt");
             List<String> content = Files.readAllLines(path);
