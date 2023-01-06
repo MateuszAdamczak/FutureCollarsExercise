@@ -11,9 +11,9 @@ public class WordFinder {
         try {
             Path path = Paths.get("src/main/java/com/futurecollars/lekcja6/zadanie4/data.txt");
             String content = Files.readString(path);
-            boolean Word = content.contains(text);
+            boolean word = content.contains(text);
             System.out.println(content);
-            System.out.println(Word);
+            System.out.println(word);
         } catch (IOException exception) {
             exception.printStackTrace();
         }
