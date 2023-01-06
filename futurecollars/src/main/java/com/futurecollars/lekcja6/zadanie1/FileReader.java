@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class FileReader {
-    public void openAndWriteFile() {
+    public void printFileContent() {
         try {
             Path path = Paths.get("src/main/java/com/futurecollars/lekcja6/zadanie1/data.txt");
             String content = Files.readString(path);
